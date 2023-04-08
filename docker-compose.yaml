@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+
+  duckdb-python:
+    build: 
+      context: ./docker/duckdb-python
+      dockerfile: ./Dockerfile
+    container_name: duckdb-python
+    volumes:
+      - ./docker/duckdb-python/src:/root/src
+      - ./data/duckdb:/root/data
