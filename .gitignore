@@ -1,1 +1,3 @@
 .data
+
+docker/duckdb-python/*.duckdb

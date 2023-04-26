@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "duckdb-python"
+version = "0.1.0"
+description = ""
+authors = ["dendi <contact.dendi@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "duckdb_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+duckdb = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
