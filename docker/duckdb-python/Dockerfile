@@ -4,6 +4,6 @@ COPY ./src /root/src
 
 RUN pip install duckdb==0.7.1
 
-WORKDIR /root/src
+WORKDIR /root
 RUN touch /root/service.log
 CMD tail -f /root/service.log

@@ -4,7 +4,7 @@ import duckdb
 current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # create a connection to a file called 'demo.duckdb'
-con = duckdb.connect('db/demo.duckdb')
+con = duckdb.connect('data/demo.duckdb')
 
 con.sql(f"""
     INSERT INTO users VALUES 

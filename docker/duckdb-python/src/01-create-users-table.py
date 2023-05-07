@@ -1,7 +1,7 @@
 import duckdb
 
 # create a connection to a file called 'demo.duckdb'
-con = duckdb.connect('db/demo.duckdb')
+con = duckdb.connect('data/demo.duckdb')
 
 # create a users table
 con.sql("""

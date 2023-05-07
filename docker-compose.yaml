@@ -9,4 +9,4 @@ services:
     container_name: duckdb-python
     volumes:
       - ./docker/duckdb-python/src:/root/src
-      - ./data/duckdb:/root/data
+      - ./.data/duckdb/:/root/data/
