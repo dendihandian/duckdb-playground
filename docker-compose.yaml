@@ -10,3 +10,12 @@ services:
     volumes:
       - ./docker/duckdb-python/src:/root/src
       - ./.data/duckdb/:/root/data/
+
+  # duckdb-node:
+  #   build: 
+  #     context: ./docker/duckdb-node
+  #     dockerfile: ./Dockerfile
+  #   container_name: duckdb-node
+  #   volumes:
+  #     - ./docker/duckdb-node/src:/root/src
+  #     - ./.data/duckdb/:/root/data/
