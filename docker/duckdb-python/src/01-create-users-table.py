@@ -13,3 +13,7 @@ con.sql("""
         created_at TIMESTAMP
     )
 """)
+
+"""
+docker-compose exec duckdb-python python src/01-create-users-table.py
+"""

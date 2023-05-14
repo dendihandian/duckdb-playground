@@ -11,3 +11,7 @@ con.sql(f"""
         (1, 'users01@example.net', 'users01', TRUE, '{current_datetime}'),
         (2, 'users02@example.net', 'users02', FALSE, '{current_datetime}')
 """)
+
+"""
+docker-compose exec duckdb-python python src/02-insert-data-into-users-table.py
+"""
