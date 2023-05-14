@@ -2,3 +2,4 @@
 
 docker/duckdb-python/db/*.duckdb
 docker/duckdb-python/db/*.csv
+docker/duckdb-python/src/_*.csv
